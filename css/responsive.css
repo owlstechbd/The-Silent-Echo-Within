@@ -128,7 +128,12 @@
         display: none;
     }
 
-    #hero {
+        #hero {
         height: 100vh;
     }
+
+    .video-background {
+    height: 100vh;
+    }
+
 }
