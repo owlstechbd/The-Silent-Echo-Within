@@ -1,9 +1,21 @@
-@media screen and (max-width: 1200px){
-
-.hero-container{
-    max-width: 70%;
+@media screen and (max-width: 1600px){
+    .logo img {
+    width: 30%;
+    margin-top: -20%;
+    margin-bottom: 30px;
+    }
+    .hero-container p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 26px;
 }
-    .shape-left{
+.hero-container ul li {
+    padding: 9px;
+    margin-bottom: 10px;
+    font-size: 18px;
+
+}
+.shape-left{
         width: 202px;
         height: 202px;
         top: -9%;
@@ -15,6 +27,13 @@
         top: -9%;
         right: -3%;
     }
+}
+@media screen and (max-width: 1200px){
+
+.hero-container{
+    max-width: 70%;
+}
+    
 
 }
 @media screen and (max-width: 980px){
