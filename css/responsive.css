@@ -15,6 +15,10 @@
     font-size: 18px;
 
 }
+
+#hero {
+    height: 108vh;
+}
 .shape-left{
         width: 202px;
         height: 202px;
@@ -82,5 +86,8 @@
     }
     .shape-right{
        display: none;
+    }
+    #hero {
+        height: 100vh;
     }
 }
