@@ -7,7 +7,6 @@
     .hero-container p {
     font-size: 18px;
     color: #fff;
-    margin-bottom: 26px;
 }
 .hero-container ul li {
     padding: 9px;
@@ -32,12 +31,28 @@
         right: -3%;
     }
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1300px){
 
 .hero-container{
     max-width: 70%;
 }
-    
+
+    .hero-container ul li {
+        padding: 9px;
+        margin-bottom: 7px;
+        font-size: 16px;
+    }
+    .hero-container p{
+        font-size: 16px;
+    }
+    .hero-container ul{
+        padding-top: 12px;
+    }
+    .logo img {
+        width: 23%;
+        margin-top: -20%;
+        margin-bottom: 9px;
+    }
 
 }
 @media screen and (max-width: 980px){
