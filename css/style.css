@@ -25,7 +25,7 @@ li{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     z-index: -1;
 }
@@ -42,6 +42,7 @@ li{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow: hidden;
 }
 .hero-container{
 	width: 746px;
@@ -118,27 +119,27 @@ li{
 }
 
 .hero-container li:nth-child(2) {
-  background: #0077B5; /* LinkedIn */
-}
-
-.hero-container li:nth-child(3) {
-  background: #1DA1F2; /* X (Twitter) */
-}
-
-.hero-container li:nth-child(4) {
-  background: #010101; /* TikTok */
-}
-
-.hero-container li:nth-child(5) {
   background: #1877F2; /* Facebook */
 }
 
-.hero-container li:nth-child(6) {
+.hero-container li:nth-child(3) {
   background: #E60023; /* Pinterest */
 }
 
-.hero-container li:nth-child(7) {
+.hero-container li:nth-child(4) {
+  background: #000000; /* Twitter (X) */
+}
+
+.hero-container li:nth-child(5) {
   background: #E1306C; /* Instagram */
+}
+
+.hero-container li:nth-child(6) {
+  background: #0077B5; /* LinkedIn */
+}
+
+.hero-container li:nth-child(7) {
+  background: #010101; /* TikTok */
 }
 
 .hero-container li:nth-child(8) {
